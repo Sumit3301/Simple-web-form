@@ -1,0 +1,112 @@
+body#LoginForm{ background-image:url("https://wallpaperaccess.com/full/1155050.jpg"); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;}
+:root {
+  --head-clr: #3FB86B;
+  --para-clr: #6A6A6E;
+  --head2-clr: #090C20;
+  --light-green: #05EC5A;
+}
+body,html{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.form-heading { color:#fff; font-size:80px;}
+h1{
+	text-align:center; font-size:80px; font-weight:4;}
+
+.panel h2{ color:#444444; font-size:40px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+
+.login-form  .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+.btn-trans {
+  color: var(--head-clr);
+  border: 3px solid var(--light-green);
+  border-radius: 1000px;
+  padding: 10px 65px;
+}
+
+.btn-trans:hover {
+  color: #fff;
+  background-color: #05EC5A;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+  
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+
+#header {
+  height: 100px;
+  padding: 0 0 0 5%;
+}
+
+#header .navbar .container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+#header .navbar .container .nav-menu {
+  display: flex;
+  padding: 0 5% 0 0;
+}
+
+#header .navbar .container .nav-menu li a {
+  display: inline-block;
+  text-align: center;
+  margin: 0 2px;
+  padding: 6px 15px;
+  color: var(--head2-clr);
+}
+
+#header .navbar .container .nav-menu li a.current {
+  background-color: var(--light-green);
+  color: #fff;
+  border-radius: 1000px;
+}
+
+#header .navbar .container .nav-menu li a:hover {
+  background-color: var(--light-green);
+  border-radius: 10px;
+  color: #fff;
+}
+a{
+	text-decoration:none;
+}
+	
+#header 
+
